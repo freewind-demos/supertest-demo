@@ -6,9 +6,6 @@ app.get('/', function(req, res) {
   res.send('Hello, world!');
 });
 
-var server = app.listen(3000, function () {
-  var host = server.address().address;
-  var port = server.address().port;
-
-  console.log('Server listening at http://%s:%s', host, port);
+app.listen(3000, function () {
+  console.log('Server listening at http://localhost:3000');
 });
