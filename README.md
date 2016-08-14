@@ -1,17 +1,16 @@
-Simplest Express Demo
-=====================
+Supertest for Express Demo
+===========================
+
+Using [supertest](https://github.com/visionmedia/supertest) to write tests for express applications.
 
 ```
+npm install -g jasmine
 npm install
-```
-
-Run:
-
-```
 node index.js
 ```
 
-Then visit: 
+Run test:
 
-1. <http://localhost:3000>, you will see `Hello, world!`
-2. <http://localhost:3000/hello/Freewind>,, you will see `Hello, Freewind`
+```
+npm test
+```
